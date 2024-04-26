@@ -22,7 +22,7 @@ function getResult() {
     message = "Please Enter Input!";
   }
   else if (age <= 0) {
-    message = "Please Enter Postive Input!";
+    message = "Please Enter Positive Input!";
   }
   else if (age % 1 != 0) {
     message = "Please Enter Positive Integer!";
