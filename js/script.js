@@ -5,7 +5,7 @@ const ageInput = document.getElementById('ageInput');
 const outputResult = document.getElementById('outputResult');
 const inputForm = document.getElementById('inputForm');
 
-function getTemperatureState() {
+function getResult() {
 
   // Get user input, years of age
   let age = Number(ageInput.value);
@@ -49,6 +49,6 @@ function getTemperatureState() {
 // Cool function notation
 // form validation + submit call
 inputForm.onsubmit = () => {
-  getTemperatureState();
+  getResult();
   return false;
 }
