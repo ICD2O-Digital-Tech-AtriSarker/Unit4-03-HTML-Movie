@@ -4,7 +4,7 @@
 <head>
   <!-- Meta data section -->
   <meta charset="utf-8">
-  <meta name="description" content="{desc}, Using Javascript">
+  <meta name="description" content="widget that takes in years of age as an input and outputs what rating of movies an individual of the specified age is able to see, Using Javascript">
   <meta name="keywords" content="immaculata, icd2o">
   <meta name="author" content="Atri Sarker">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,7 @@
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
   <!-- Title -->
-  <title>{title} in JS</title>
+  <title>Movie Age Rating Checker in JS</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
   <script defer src="./js/script.js"></script>
 
   <!-- Header -->
-  <h1>{title} in JS</h1>
+  <h1>Movie Age Rating Checker in JS</h1>
 
   <!-- INPUT FORM [used for form validation] -->
   <form id="inputForm">
@@ -41,14 +41,15 @@
     <table>
       <tr>
         <td>
-          <!--  {value} Input -->
-          <label for="{value}Input">{value}:</label>
-          <input id="{value}Input" type="number" name="{value}" value="" step="0.01" min="" max="" />
+          <!--  age Input -->
+          <label for="ageInput">Enter age ( years ):</label>
+          <!-- Step, Min, and Max are undefined for sake of assignment -->
+          <input id="ageInput" type="number" name="age" value="" step="any" min="" max="" />
           <br>
         </td>
         <td>
           <!-- Image of JS LOGO -->
-          <img class="contentImg" src="./images/jsLogo.png" alt="javascript Logo!">
+          <img class="contentImg" src="./images/jsLogo.svg" alt="javascript Logo!">
           <br>
         </td>
       </tr>
