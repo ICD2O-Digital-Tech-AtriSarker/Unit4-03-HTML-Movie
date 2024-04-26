@@ -40,6 +40,7 @@ function getTemperatureState() {
     message = "Not allowed to see movies alone!";
   }
 
+  // Display result
   outputResult.innerText = message;
 
   return;
