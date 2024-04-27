@@ -19,7 +19,8 @@ function getResult() {
   // When nothing is entered, web page should ask them to please input their age.
   let message = "";
   if (isNaN(age)) {
-    message = "Please Enter Input!";
+    // Redundant, because Number() automatically parses empty input as 0
+    message = "Please Enter Positive Input!";
   }
   else if (age <= 0) {
     message = "Please Enter Positive Input!";
